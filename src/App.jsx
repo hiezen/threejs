@@ -1,11 +1,12 @@
-
+import {BrowserRouter} from 'react-router-dom';
+import {About, Contacts, Experience, Feedbacks, Hero, Navbar, Tech,  Works, StarsCanvas} from './components';
 const App = () => {
  
 
   return (
-    <div>
-      3D DEVELOPER PORTFOLIO-
-    </div>
+    <BrowserRouter>
+    <div className="relative z-0 bg-primary"></div>
+    </BrowserRouter>
   )
 }
 
